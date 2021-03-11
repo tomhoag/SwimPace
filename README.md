@@ -1,9 +1,9 @@
 # SwimPace
 
-[![](http://squarepisoftware.com/wp-content/uploads/swimpacedemo.png)](https://vimeo.com/522432679)
+[![](http://squarepisoftware.com/wp-content/uploads/swimpacedemo2.png)](https://vimeo.com/522432679)
 
 <figure class="video_container">
-  <video width="640" controls="true" allowfullscreen="false" poster="http://squarepisoftware.com/wp-content/uploads/swimpacedemo.png">
+  <video width="480" controls="true" allowfullscreen="false" poster="http://squarepisoftware.com/wp-content/uploads/swimpacedemo2.png">
     <source src="http://squarepisoftware.com/wp-content/uploads/swimpacedemo.mp4" type="video/mp4">
   </video>
 </figure>
