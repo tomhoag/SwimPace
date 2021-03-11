@@ -1,5 +1,7 @@
 # SwimPace
 
+[![](http://squarepisoftware.com/wp-content/uploads/swimpacedemo.png)](https://vimeo.com/522432679)
+
 <figure class="video_container">
   <video width="640" controls="true" allowfullscreen="false" poster="http://squarepisoftware.com/wp-content/uploads/swimpacedemo.png">
     <source src="http://squarepisoftware.com/wp-content/uploads/swimpacedemo.mp4" type="video/mp4">
@@ -52,5 +54,5 @@ The pace bar will move at a constant pace for the duration of the race.  When th
 
 Here's a rather long demo showing how to configure the pool edges and view the pace bar.  This was completed during warm-up/cool-down so while the pace bar appears, who needs a pace bar for a warm-up? :-)
 
-
+[![](http://squarepisoftware.com/wp-content/uploads/swimpacedemo.png)](https://vimeo.com/522432679)
 
