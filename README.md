@@ -1,5 +1,11 @@
 # SwimPace
 
+<figure class="video_container">
+  <video width="640" controls="true" allowfullscreen="false" poster="http://squarepisoftware.com/wp-content/uploads/swimpacedemo.png">
+    <source src="http://squarepisoftware.com/wp-content/uploads/swimpacedemo.mp4" type="video/mp4">
+  </video>
+</figure>
+
 This app overlays a pace bar on a swim meet livestream or video (or really any livestream or video but it probably doesn't have much utility?)
 
 The plan was to use the window of this app as input to Open Broadcaster Software ([OBS](https://obsproject.com)) 
@@ -46,11 +52,5 @@ The pace bar will move at a constant pace for the duration of the race.  When th
 
 Here's a rather long demo showing how to configure the pool edges and view the pace bar.  This was completed during warm-up/cool-down so while the pace bar appears, who needs a pace bar for a warm-up? :-)
 
-
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="http://squarepisoftware.com/wp-content/uploads/swimpacedemo.png">
-    <source src="http://squarepisoftware.com/wp-content/uploads/swimpacedemo.mp4" type="video/mp4">
-  </video>
-</figure>
 
 
