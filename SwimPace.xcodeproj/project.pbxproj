@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABD2088025E03798007AB27F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD2087F25E03798007AB27F /* AppDelegate.swift */; };
+		ABD2088225E03798007AB27F /* ConfigController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD2088125E03798007AB27F /* ConfigController.swift */; };
+		ABD2088425E0379B007AB27F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD2088325E0379B007AB27F /* Assets.xcassets */; };
+		ABD2088725E0379B007AB27F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD2088525E0379B007AB27F /* Main.storyboard */; };
+		ABD2089325E0379B007AB27F /* SwimPaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD2089225E0379B007AB27F /* SwimPaceTests.swift */; };
+		ABD2089E25E0379B007AB27F /* SwimPaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD2089D25E0379B007AB27F /* SwimPaceUITests.swift */; };
+		ABD208CA25E05260007AB27F /* CameraFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD208C925E05260007AB27F /* CameraFeed.swift */; };
+		ABD208D225E0636B007AB27F /* PoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD208D125E0636B007AB27F /* PoolViewController.swift */; };
+		ABFE6E7025E0BB80003D7874 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFE6E6F25E0BB80003D7874 /* Config.swift */; };
+		ABFE6E8225E402F1003D7874 /* PoolEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFE6E8125E402F1003D7874 /* PoolEdge.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABD2088F25E0379B007AB27F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABD2087425E03798007AB27F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABD2087B25E03798007AB27F;
+			remoteInfo = SwimPace;
+		};
+		ABD2089A25E0379B007AB27F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABD2087425E03798007AB27F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABD2087B25E03798007AB27F;
+			remoteInfo = SwimPace;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABD2087C25E03798007AB27F /* SwimPace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwimPace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD2087F25E03798007AB27F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABD2088125E03798007AB27F /* ConfigController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigController.swift; sourceTree = "<group>"; };
+		ABD2088325E0379B007AB27F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABD2088625E0379B007AB27F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABD2088825E0379B007AB27F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABD2088925E0379B007AB27F /* SwimPace.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwimPace.entitlements; sourceTree = "<group>"; };
+		ABD2088E25E0379B007AB27F /* SwimPaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwimPaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD2089225E0379B007AB27F /* SwimPaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimPaceTests.swift; sourceTree = "<group>"; };
+		ABD2089425E0379B007AB27F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABD2089925E0379B007AB27F /* SwimPaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwimPaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD2089D25E0379B007AB27F /* SwimPaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimPaceUITests.swift; sourceTree = "<group>"; };
+		ABD2089F25E0379B007AB27F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABD208C925E05260007AB27F /* CameraFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraFeed.swift; sourceTree = "<group>"; };
+		ABD208D125E0636B007AB27F /* PoolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoolViewController.swift; sourceTree = "<group>"; };
+		ABFE6E6F25E0BB80003D7874 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		ABFE6E8125E402F1003D7874 /* PoolEdge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoolEdge.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABD2087925E03798007AB27F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD2088B25E0379B007AB27F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD2089625E0379B007AB27F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABD2087325E03798007AB27F = {
+			isa = PBXGroup;
+			children = (
+				ABD2087E25E03798007AB27F /* SwimPace */,
+				ABD2089125E0379B007AB27F /* SwimPaceTests */,
+				ABD2089C25E0379B007AB27F /* SwimPaceUITests */,
+				ABD2087D25E03798007AB27F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABD2087D25E03798007AB27F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABD2087C25E03798007AB27F /* SwimPace.app */,
+				ABD2088E25E0379B007AB27F /* SwimPaceTests.xctest */,
+				ABD2089925E0379B007AB27F /* SwimPaceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABD2087E25E03798007AB27F /* SwimPace */ = {
+			isa = PBXGroup;
+			children = (
+				ABD2087F25E03798007AB27F /* AppDelegate.swift */,
+				ABD208C925E05260007AB27F /* CameraFeed.swift */,
+				ABFE6E6F25E0BB80003D7874 /* Config.swift */,
+				ABD2088125E03798007AB27F /* ConfigController.swift */,
+				ABD208D125E0636B007AB27F /* PoolViewController.swift */,
+				ABD2088325E0379B007AB27F /* Assets.xcassets */,
+				ABD2088525E0379B007AB27F /* Main.storyboard */,
+				ABD2088825E0379B007AB27F /* Info.plist */,
+				ABD2088925E0379B007AB27F /* SwimPace.entitlements */,
+				ABFE6E8125E402F1003D7874 /* PoolEdge.swift */,
+			);
+			path = SwimPace;
+			sourceTree = "<group>";
+		};
+		ABD2089125E0379B007AB27F /* SwimPaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABD2089225E0379B007AB27F /* SwimPaceTests.swift */,
+				ABD2089425E0379B007AB27F /* Info.plist */,
+			);
+			path = SwimPaceTests;
+			sourceTree = "<group>";
+		};
+		ABD2089C25E0379B007AB27F /* SwimPaceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABD2089D25E0379B007AB27F /* SwimPaceUITests.swift */,
+				ABD2089F25E0379B007AB27F /* Info.plist */,
+			);
+			path = SwimPaceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABD2087B25E03798007AB27F /* SwimPace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD208A225E0379B007AB27F /* Build configuration list for PBXNativeTarget "SwimPace" */;
+			buildPhases = (
+				ABD2087825E03798007AB27F /* Sources */,
+				ABD2087925E03798007AB27F /* Frameworks */,
+				ABD2087A25E03798007AB27F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwimPace;
+			productName = SwimPace;
+			productReference = ABD2087C25E03798007AB27F /* SwimPace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABD2088D25E0379B007AB27F /* SwimPaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD208A525E0379B007AB27F /* Build configuration list for PBXNativeTarget "SwimPaceTests" */;
+			buildPhases = (
+				ABD2088A25E0379B007AB27F /* Sources */,
+				ABD2088B25E0379B007AB27F /* Frameworks */,
+				ABD2088C25E0379B007AB27F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABD2089025E0379B007AB27F /* PBXTargetDependency */,
+			);
+			name = SwimPaceTests;
+			productName = SwimPaceTests;
+			productReference = ABD2088E25E0379B007AB27F /* SwimPaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABD2089825E0379B007AB27F /* SwimPaceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD208A825E0379B007AB27F /* Build configuration list for PBXNativeTarget "SwimPaceUITests" */;
+			buildPhases = (
+				ABD2089525E0379B007AB27F /* Sources */,
+				ABD2089625E0379B007AB27F /* Frameworks */,
+				ABD2089725E0379B007AB27F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABD2089B25E0379B007AB27F /* PBXTargetDependency */,
+			);
+			name = SwimPaceUITests;
+			productName = SwimPaceUITests;
+			productReference = ABD2089925E0379B007AB27F /* SwimPaceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABD2087425E03798007AB27F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					ABD2087B25E03798007AB27F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					ABD2088D25E0379B007AB27F = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = ABD2087B25E03798007AB27F;
+					};
+					ABD2089825E0379B007AB27F = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = ABD2087B25E03798007AB27F;
+					};
+				};
+			};
+			buildConfigurationList = ABD2087725E03798007AB27F /* Build configuration list for PBXProject "SwimPace" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABD2087325E03798007AB27F;
+			productRefGroup = ABD2087D25E03798007AB27F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABD2087B25E03798007AB27F /* SwimPace */,
+				ABD2088D25E0379B007AB27F /* SwimPaceTests */,
+				ABD2089825E0379B007AB27F /* SwimPaceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABD2087A25E03798007AB27F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD2088425E0379B007AB27F /* Assets.xcassets in Resources */,
+				ABD2088725E0379B007AB27F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD2088C25E0379B007AB27F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD2089725E0379B007AB27F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABD2087825E03798007AB27F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFE6E8225E402F1003D7874 /* PoolEdge.swift in Sources */,
+				ABD208D225E0636B007AB27F /* PoolViewController.swift in Sources */,
+				ABD208CA25E05260007AB27F /* CameraFeed.swift in Sources */,
+				ABFE6E7025E0BB80003D7874 /* Config.swift in Sources */,
+				ABD2088225E03798007AB27F /* ConfigController.swift in Sources */,
+				ABD2088025E03798007AB27F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD2088A25E0379B007AB27F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD2089325E0379B007AB27F /* SwimPaceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD2089525E0379B007AB27F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD2089E25E0379B007AB27F /* SwimPaceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABD2089025E0379B007AB27F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABD2087B25E03798007AB27F /* SwimPace */;
+			targetProxy = ABD2088F25E0379B007AB27F /* PBXContainerItemProxy */;
+		};
+		ABD2089B25E0379B007AB27F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABD2087B25E03798007AB27F /* SwimPace */;
+			targetProxy = ABD2089A25E0379B007AB27F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABD2088525E0379B007AB27F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABD2088625E0379B007AB27F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABD208A025E0379B007AB27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABD208A125E0379B007AB27F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ABD208A325E0379B007AB27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwimPace/SwimPace.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4MUC8K263B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = SwimPace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.squarepi.SwimPace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ABD208A425E0379B007AB27F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SwimPace/SwimPace.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4MUC8K263B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = SwimPace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.squarepi.SwimPace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ABD208A625E0379B007AB27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4MUC8K263B;
+				INFOPLIST_FILE = SwimPaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.squarepi.SwimPaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwimPace.app/Contents/MacOS/SwimPace";
+			};
+			name = Debug;
+		};
+		ABD208A725E0379B007AB27F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4MUC8K263B;
+				INFOPLIST_FILE = SwimPaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.squarepi.SwimPaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwimPace.app/Contents/MacOS/SwimPace";
+			};
+			name = Release;
+		};
+		ABD208A925E0379B007AB27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4MUC8K263B;
+				INFOPLIST_FILE = SwimPaceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.squarepi.SwimPaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SwimPace;
+			};
+			name = Debug;
+		};
+		ABD208AA25E0379B007AB27F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4MUC8K263B;
+				INFOPLIST_FILE = SwimPaceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.squarepi.SwimPaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SwimPace;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABD2087725E03798007AB27F /* Build configuration list for PBXProject "SwimPace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD208A025E0379B007AB27F /* Debug */,
+				ABD208A125E0379B007AB27F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD208A225E0379B007AB27F /* Build configuration list for PBXNativeTarget "SwimPace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD208A325E0379B007AB27F /* Debug */,
+				ABD208A425E0379B007AB27F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD208A525E0379B007AB27F /* Build configuration list for PBXNativeTarget "SwimPaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD208A625E0379B007AB27F /* Debug */,
+				ABD208A725E0379B007AB27F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD208A825E0379B007AB27F /* Build configuration list for PBXNativeTarget "SwimPaceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD208A925E0379B007AB27F /* Debug */,
+				ABD208AA25E0379B007AB27F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABD2087425E03798007AB27F /* Project object */;
+}
